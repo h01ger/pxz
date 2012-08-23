@@ -1,12 +1,19 @@
 Source: pxz
-Maintainer: Bartlomiej Wrobel <if0@spy-free.net>
+Maintainer: Holger Levsen <holger@debian.org>
 Section: misc
 Priority: optional
-Standards-Version: 3.9.1
-Build-Depends: debhelper (>= 8), liblzma-dev
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9), liblzma-dev
+Homepage: http://jnovy.fedorapeople.org/pxz/
+Vcs-Git: git://anonscm.debian.org/collab-maint/pxz.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/pxz.git
 
 Package: pxz
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: parallel xz
- parallel LZMA compressor using liblzma
+Description: parallel LZMA compressor using liblzma
+ Parallel XZ is a compression utility that takes advantage of running LZMA
+ compression of different parts of an input file on multiple cores and 
+ processors simultaneously. Its primary goal is to utilize all resources to 
+ speed up compression time with minimal possible influence on compression 
+ ratio.

@@ -1,5 +1,14 @@
-pxz (4.999.9beta+git537418b-1) UNRELEASED; urgency=low
+pxz (4.999.9~beta+git537418b-1) UNRELEASED; urgency=low
 
+  [ Bartlomiej Wrobel ]
   * Initial release. (Closes: #655185)
 
- -- Bartlomiej Wrobel <if0@spy-free.net>  Tue, 24 Apr 2012 20:52:22 +0200
+  [ Holger Levsen ]
+  * Polish Bartlomiej's packaging: extend package description and incl.
+    homepage and vcs-headers, bump standards version, fix debian/copyright, 
+    bump compat level to get hardened build for free.
+  * Remove Bartlomiej from maintainers in debian/control as his email address
+    bounces. I'd be happy to co-maintain with him, but this needs a working
+    email address.
+
+ -- Holger Levsen <holger@debian.org>  Thu, 23 Aug 2012 22:04:06 +0000
