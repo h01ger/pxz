@@ -1,0 +1,5 @@
+pxz (4.999.9beta+git537418b-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #655185)
+
+ -- Bartlomiej Wrobel <if0@spy-free.net>  Tue, 24 Apr 2012 20:52:22 +0200

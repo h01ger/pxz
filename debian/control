@@ -1,0 +1,12 @@
+Source: pxz
+Maintainer: Bartlomiej Wrobel <if0@spy-free.net>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 8), liblzma-dev
+
+Package: pxz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: parallel xz
+ parallel LZMA compressor using liblzma
