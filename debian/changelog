@@ -1,4 +1,4 @@
-pxz (4.999.9~beta+git537418b-1) UNRELEASED; urgency=low
+pxz (4.999.9~beta+git537418b-1) unstable; urgency=low
 
   [ Bartlomiej Wrobel ]
   * Initial release. (Closes: #655185)
@@ -11,4 +11,4 @@ pxz (4.999.9~beta+git537418b-1) UNRELEASED; urgency=low
     bounces. I'd be happy to co-maintain with him, but this needs a working
     email address.
 
- -- Holger Levsen <holger@debian.org>  Thu, 23 Aug 2012 22:04:06 +0000
+ -- Holger Levsen <holger@debian.org>  Fri, 24 Aug 2012 11:45:08 +0200
