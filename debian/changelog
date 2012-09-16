@@ -1,3 +1,14 @@
+pxz (4.999.99~beta2+git4774800-1) unstable; urgency=low
+
+  * Makefile: use CPPFLAGS from environment (ie dpkg-buildflags), necessary
+    for hardening flags. Thanks to Simon Ruderich (Closes: #687044)
+  * Include the following patches from github:
+    - use lzma_stream_encoder() in stead of lzma_easy_encoder() so that we
+    can from Per Øyvind Karlsen.
+    - Fix printf format for 64bit (Closes: #686729) from Simon Andersson.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 16 Sep 2012 16:39:06 +0200
+
 pxz (4.999.9~beta+git537418b-1) unstable; urgency=low
 
   [ Bartlomiej Wrobel ]
