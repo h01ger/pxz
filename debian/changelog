@@ -1,3 +1,9 @@
+pxz (4.999.99~beta2+git4774800-2) UNRELEASED; urgency=low
+
+  * Bump standards version to 3.9.4. 
+
+ -- Holger Levsen <holger@debian.org>  Wed, 22 May 2013 16:17:00 +0200
+
 pxz (4.999.99~beta2+git4774800-1) unstable; urgency=low
 
   * Makefile: use CPPFLAGS from environment (ie dpkg-buildflags), necessary
