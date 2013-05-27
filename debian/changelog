@@ -1,5 +1,6 @@
-pxz (4.999.99~beta2+git4774800-2) UNRELEASED; urgency=low
+pxz (4.999.99~beta3+git659fc9b-1) UNRELEASED; urgency=medium
 
+  * New upstream version. (Closes: #706295)
   * Bump standards version to 3.9.4. 
 
  -- Holger Levsen <holger@debian.org>  Wed, 22 May 2013 16:17:00 +0200
