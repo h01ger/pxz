@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pxz
 Upstream-Contact: jnovy@users.sourceforge.net
-Source: http://jnovy.fedorapeople.org/pxz/
+Source: https://jnovy.fedorapeople.org/pxz/
 
 Files: *
 Copyright: 2009, 2010 Jindrich Novy <jnovy@users.sourceforge.net>
