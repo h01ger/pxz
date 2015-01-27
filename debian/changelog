@@ -1,3 +1,10 @@
+pxz (4.999.99~beta3+git659fc9b-3) unstable; urgency=medium
+
+  * CVE-2015-1200: Fix race condition in setting permissions. Thanks to 
+    Moritz Mühlenhoff for the patch. (Closes: #775306)
+
+ -- Holger Levsen <holger@debian.org>  Tue, 27 Jan 2015 12:34:37 +0100
+
 pxz (4.999.99~beta3+git659fc9b-2) unstable; urgency=medium
 
   * Bump Standards Version to 3.9.5, no changes needed.
