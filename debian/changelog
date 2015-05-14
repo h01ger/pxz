@@ -1,6 +1,7 @@
 pxz (4.999.99~beta4+gitae80846-1) unstable; urgency=medium
 
   * New upstream version. (Closes: #714732)
+  * Drop now obsolete fix-man-keep-option.patch.
 
  -- Holger Levsen <holger@debian.org>  Thu, 14 May 2015 16:43:30 +0200
 
