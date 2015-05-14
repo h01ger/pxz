@@ -1,3 +1,9 @@
+pxz (4.999.99~beta4+gitae80846-1) unstable; urgency=medium
+
+  * New upstream version. (Closes: #714732)
+
+ -- Holger Levsen <holger@debian.org>  Thu, 14 May 2015 16:43:30 +0200
+
 pxz (4.999.99~beta3+git659fc9b-4) unstable; urgency=medium
 
   * Add debian/patches/reproducible-build.patch to modify the Makefile to
