@@ -3,6 +3,7 @@ pxz (4.999.99~beta3+git659fc9b-4) UNRELEASED; urgency=medium
   * Add debian/patches/reproducible-build.patch to modify the Makefile to
     embed the date of the last modification of debian/changelog in the binary,
     instead of the meaningless build date.
+  * Bump Standards Version to 3.9.6, no changes needed.
 
  -- Holger Levsen <holger@debian.org>  Thu, 14 May 2015 15:55:20 +0200
 
