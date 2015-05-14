@@ -1,3 +1,11 @@
+pxz (4.999.99~beta3+git659fc9b-4) UNRELEASED; urgency=medium
+
+  * Add debian/patches/reproducible-build.patch to modify the Makefile to
+    embed the date of the last modification of debian/changelog in the binary,
+    instead of the meaningless build date.
+
+ -- Holger Levsen <holger@debian.org>  Thu, 14 May 2015 15:55:20 +0200
+
 pxz (4.999.99~beta3+git659fc9b-3) unstable; urgency=medium
 
   * CVE-2015-1200: Fix race condition in setting permissions. Thanks to 
