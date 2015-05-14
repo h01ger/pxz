@@ -1,1 +1,2 @@
 fix-man-keep-option.patch
+CVE-2015-1200-Fix-race-condition-in-setting-permissions.patch
