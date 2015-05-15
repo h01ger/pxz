@@ -1,3 +1,10 @@
+pxz (4.999.99~beta4+gitae80846-2) UNRELEASED; urgency=medium
+
+  * Modify debian/patches/reproducible-build.patch to use the date in UTC to
+    avoid time zone differences. 
+
+ -- Holger Levsen <holger@debian.org>  Fri, 15 May 2015 11:01:31 +0000
+
 pxz (4.999.99~beta4+gitae80846-1) unstable; urgency=medium
 
   * New upstream version. (Closes: #714732)
