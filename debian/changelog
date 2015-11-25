@@ -1,3 +1,11 @@
+pxz (4.999.99~beta4+gitae80846-3) UNRELEASED; urgency=medium
+
+  * Fix debian/patches/reproducible-build.patch to actually use the time from
+    dpkg-parsechangelog and not the system time. Thanks to Reiner Herrman for
+    the patch! (Closes: #805778)
+
+ -- Holger Levsen <holger@debian.org>  Wed, 25 Nov 2015 20:06:58 +0100
+
 pxz (4.999.99~beta4+gitae80846-2) unstable; urgency=medium
 
   * Modify debian/patches/reproducible-build.patch to use the date in UTC to

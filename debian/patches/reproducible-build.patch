@@ -5,7 +5,7 @@
  
  $(NAME): $(SOURCES) $(OBJECTS)
 -	$(CC) -o $(NAME) $(CPPFLAGS) $(CFLAGS) $(NAME).c $(OBJECTS) $(LDFLAGS) -DPXZ_BUILD_DATE=\"`date +%Y%m%d`\" -DPXZ_VERSION=\"$(VERSION)\"
-+	$(CC) -o $(NAME) $(CPPFLAGS) $(CFLAGS) $(NAME).c $(OBJECTS) $(LDFLAGS) -DPXZ_BUILD_DATE=\"$(shell dpkg-parsechangelog -S date|date -u +%Y%m%d)\" -DPXZ_VERSION=\"$(VERSION)\"
++	$(CC) -o $(NAME) $(CPPFLAGS) $(CFLAGS) $(NAME).c $(OBJECTS) $(LDFLAGS) -DPXZ_BUILD_DATE=\"$(shell dpkg-parsechangelog -S date|date -u +%Y%m%d -f -)\" -DPXZ_VERSION=\"$(VERSION)\"
  
  clean:
  	rm -f *.o $(NAME)
