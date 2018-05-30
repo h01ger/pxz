@@ -1,10 +1,10 @@
-pxz (4.999.99~beta5+gitfcfea93-3) UNRELEASED; urgency=medium
+pxz (4.999.99~beta5+gitfcfea93-3) unstable; urgency=medium
 
   * debian/control: switch packaging to salsa.debian.org. Thanks to the alioth
     admins for providing such a nice service so long!
   * Bump Standards-Version to 4.1.4, no changes needed.
 
- -- Holger Levsen <holger@debian.org>  Wed, 30 May 2018 23:14:23 +0000
+ -- Holger Levsen <holger@debian.org>  Wed, 30 May 2018 23:16:50 +0000
 
 pxz (4.999.99~beta5+gitfcfea93-2) unstable; urgency=medium
 
